@@ -36,4 +36,10 @@ puts hash_of_fruit
 =end
 
 # Iterate through a hash
+fruit_quantity = {:apples => 21, :oranges => 58, :bananas => 99}
+
+fruit_quantity.each do |fruit, quantity|
+  puts "We have #{quantity} #{fruit}."
+end
+
 
