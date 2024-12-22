@@ -35,11 +35,19 @@ hash_of_fruit = Hash[*fruit]
 puts hash_of_fruit
 =end
 
+=begin
 # Iterate through a hash
 fruit_quantity = {:apples => 21, :oranges => 58, :bananas => 99}
 
 fruit_quantity.each do |fruit, quantity|
   puts "We have #{quantity} #{fruit}."
 end
+=end
 
+# Print up to 16 in chunks of 4
+i = 0
+while i != 16
+  puts "#{i + 1} #{i + 2} #{i + 3} #{i + 4}"
+  i = i + 4
+end
 
